@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0; /* espaçamento interno da caixa */
+    box-sizing: border-box;
+}
+
+header { /* cabeçalho */
+    padding: 16px 30px;
+    background-color: #000d30;
+    color: #ffffff;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px; /*largura máxima */
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
