@@ -83,3 +83,9 @@ section p{
 .store-front{
     margin-right: 32px;
 }
+
+footer{
+    background-color: #031c61;
+    color: #ffffff;
+    padding: 16px 0;
+}
